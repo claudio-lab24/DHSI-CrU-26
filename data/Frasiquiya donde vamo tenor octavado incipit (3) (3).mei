@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="6.0-dev">
+   <meiHead xml:id="m15frz22">
+      <fileDesc xml:id="f1tphkz5">
+         <titleStmt xml:id="t18mribm">
+            <title>Guineo a 4</title>
+            <respStmt>
+               <persName role="composer">Gaspar Fernández</persName>
+               <persName role="arranger">Transcripción: Claudio Ramírez</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt xml:id="pydjf3v">
+            <date isodate="2026-06-10" type="encoding-date">2026-06-10</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="ekhx5yo">
+         <appInfo xml:id="a1xhr91u">
+            <application xml:id="a16xds2e" isodate="2026-06-11T08:07:31" version="6.2.0-43f8060">
+               <name xml:id="n1l3pjbp">Verovio</name>
+               <p xml:id="p1ylzew3">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="b1lctc4q">
+            <score xml:id="c1l52pr2">
+               <scoreDef xml:id="d1ak67sf" mnum.visible="false" midi.bpm="120">
+                  <pgHead xml:id="i1cycpjv" func="first">
+                     <rend xml:id="gniqsls" halign="center" valign="top">Guineo a 4</rend>
+                     <rend xml:id="j1yy3p4h" halign="right" valign="top">Gaspar Fernández (ca. 1573-1629)</rend>
+                     <rend xml:id="l1wd5emg" halign="right" valign="top">Transcripción: Claudio Ramírez</rend>
+                     <rend xml:id="n1x737oi" halign="center" valign="top">[Frasiquiya, ¿donde bamo?]
+[CC-1610]</rend>
+                     <rend xml:id="p1q2vit7" valign="top">AHAAO, Cancionero
+ff. 25v.-26r.-COT/ff. 25v.-26r.-FF</rend>
+                  </pgHead>
+                  <pgFoot xml:id="t1coro0u">
+                     <rend xml:id="r1g4lwep" valign="top">828 [1]</rend>
+                  </pgFoot>
+                  <staffGrp xml:id="u1crxqex">
+                     <staffGrp xml:id="vc8a9yo" bar.thru="false">
+                        <grpSym xml:id="w1hvknda" symbol="bracket" />
+                        <staffDef xml:id="P1" n="1" lines="5" ppq="4">
+                           <label xml:id="x1ltmeqs">[Tiple] 1</label>
+                           <labelAbbr xml:id="z14c8hme">[Ti] 1</labelAbbr>
+                           <instrDef xml:id="b1b3pvl5" midi.channel="0" midi.instrnum="52" midi.volume="80%" />
+                           <clef xml:id="k1bbyxaj" notationtype="mensural" shape="G" line="2" />
+                           <keySig xml:id="l1ldq38w" mode="major" sig="1f" />
+                           <meterSig xml:id="mlu3r5f" sym="invis" unit="invis" />
+                        </staffDef>
+                        <staffGrp xml:id="zxx80u1" bar.thru="true">
+                           <grpSym xml:id="a1eo5i37" symbol="bracket" />
+                           <staffDef xml:id="P2" n="2" lines="5" ppq="4">
+                              <label xml:id="b1t0gkkk">Tiple 2</label>
+                              <labelAbbr xml:id="dxjcs4b">Ti 2</labelAbbr>
+                              <instrDef xml:id="fvyvoj2" midi.channel="1" midi.instrnum="52" midi.volume="80%" />
+                              <clef xml:id="o1k983vw" shape="G" line="2" />
+                              <keySig xml:id="p1g2oaex" mode="major" sig="1f" />
+                            </staffDef>
+                        </staffGrp>
+                        <staffDef xml:id="P3" n="3" lines="5" ppq="4">
+                           <label xml:id="qv5fi6h">Alto</label>
+                           <labelAbbr xml:id="sia7vpy">A</labelAbbr>
+                           <instrDef xml:id="u1r0djt" midi.channel="2" midi.instrnum="52" midi.volume="80%" />
+                           <clef xml:id="d1tzikgh" shape="C" line="2" />
+                           <keySig xml:id="e18ve3uf" mode="major" sig="1f" />
+                           <proport num="3"/>
+                        </staffDef>
+                        <staffDef xml:id="P4" n="4" lines="5" ppq="4">
+                           <label xml:id="t1pv5o7n">Tenor</label>
+                           <labelAbbr xml:id="v1xbdudp">T</labelAbbr>
+                           <instrDef xml:id="xjppb8i" midi.channel="3" midi.instrnum="52" midi.volume="80%" />
+                           <clef xml:id="g1tarzbh" shape="C" line="3" />
+                           <keySig xml:id="h1jjvhej" mode="major" sig="1f" />
+                           <meterSig xml:id="i7mgisg" sym="invis" unit="invis" />
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="e1s4rztu">
+                  <expansion plist="#dpmoc7m #e1g23ntx" xml:id="f1uapzlk" />
+                  <pb xml:id="f80w5u6" />
+                  <section xml:id="dpmoc7m">
+                     <measure xml:id="n156fuly" n="1">
+                        <staff xml:id="p1r2ejhi" n="3">
+                           <layer xml:id="q1x65lld" n="1">
+                              <mensur sign="C" loc="3"/>
+                              <rest dur="minima"/>
+                              <note xml:id="r1gydvjn" dur.ppq="8" dur="2" oct="4" pname="f" stem.dir="down" stem.pos="right">
+                                 <accid/>
+                                 <verse xml:id="t1eu0o5n" n="2">
+                                    <syl xml:id="u1g39lo4" con="d" wordpos="i">Fra</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="ypsk2aa" dur.ppq="8" dur="2" oct="4" pname="g" stem.dir="down" stem.pos="right">
+                                 <accid xml:id="z1wiisvu" />
+                                 <verse xml:id="ao5ub5a" n="2">
+                                    <syl xml:id="b1x6gmbe" con="d" wordpos="m">si</syl>
+                                 </verse>
+                              </note>
+                                 <note xml:id="o15dy4lc" dur.ppq="8" dur="2" oct="4" pname="a" stem.dir="down" stem.pos="right">
+                                 <accid xml:id="p14yj254" />
+                                 <verse xml:id="q35vh8v" n="2">
+                                    <syl xml:id="r3bogxg" con="d" wordpos="m">qui</syl>
+                                 </verse>
+                              </note>
+                                 <note xml:id="epit48n" dur.ppq="16" dur="1" oct="4" pname="f">
+                                 <accid xml:id="f2n4ljy" />
+                                 <verse xml:id="gv3gfj1" n="2">
+                                    <syl xml:id="hwtu7kc" con="s" wordpos="t">ya</syl>
+                                 </verse>
+                              </note>
+                           </layer>
+                        </staff>
+                     </measure>
+                  </section>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
