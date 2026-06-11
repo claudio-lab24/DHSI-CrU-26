@@ -8,7 +8,7 @@
             <title>Guineo a 4</title>
             <respStmt>
                <persName role="composer">Gaspar Fernández</persName>
-               <persName role="arranger">Transcripción: Claudio Ramírez</persName>
+               <persName role="arranger">Transcripción: Claudio Ramírez</persName><!--THIS IS A COMMENT-->
             </respStmt>
          </titleStmt>
          <pubStmt xml:id="pydjf3v">
