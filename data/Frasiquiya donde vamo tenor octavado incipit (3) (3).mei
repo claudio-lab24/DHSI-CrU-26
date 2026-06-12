@@ -8,7 +8,7 @@
             <title>Guineo a 4</title>
             <respStmt>
                <persName role="composer">Gaspar Fernández</persName>
-               <persName role="arranger">Transcripción: Claudio Ramírez</persName><!--THIS IS A COMMENT-->
+               <persName role="arranger">Transcripción: Claudio Ramírez</persName>
             </respStmt>
          </titleStmt>
          <pubStmt xml:id="pydjf3v">
@@ -44,38 +44,43 @@ ff. 25v.-26r.-COT/ff. 25v.-26r.-FF</rend>
                   <staffGrp xml:id="u1crxqex">
                      <staffGrp xml:id="vc8a9yo" bar.thru="false">
                         <grpSym xml:id="w1hvknda" symbol="bracket" />
-                        <staffDef xml:id="P1" n="1" lines="5" ppq="4">
+                        <staffDef xml:id="P1" notationtype="mensural" n="1" lines="5" ppq="4">
                            <label xml:id="x1ltmeqs">[Tiple] 1</label>
                            <labelAbbr xml:id="z14c8hme">[Ti] 1</labelAbbr>
                            <instrDef xml:id="b1b3pvl5" midi.channel="0" midi.instrnum="52" midi.volume="80%" />
                            <clef xml:id="k1bbyxaj" notationtype="mensural" shape="G" line="2" />
-                           <keySig xml:id="l1ldq38w" mode="major" sig="1f" />
+                           <keySig>
+  										<keyAccid pname="b" accid="f" oct="4"/>
+  										<keyAccid pname="b" accid="f" oct="3"/>
+									</keySig>
                            <meterSig xml:id="mlu3r5f" sym="invis" unit="invis" />
                         </staffDef>
                         <staffGrp xml:id="zxx80u1" bar.thru="true">
                            <grpSym xml:id="a1eo5i37" symbol="bracket" />
-                           <staffDef xml:id="P2" n="2" lines="5" ppq="4">
+                           <staffDef xml:id="P2" notationtype="mensural" n="2" lines="5" ppq="4">
                               <label xml:id="b1t0gkkk">Tiple 2</label>
                               <labelAbbr xml:id="dxjcs4b">Ti 2</labelAbbr>
                               <instrDef xml:id="fvyvoj2" midi.channel="1" midi.instrnum="52" midi.volume="80%" />
                               <clef xml:id="o1k983vw" shape="G" line="2" />
-                              <keySig xml:id="p1g2oaex" mode="major" sig="1f" />
-                            </staffDef>
+                           </staffDef>
                         </staffGrp>
-                        <staffDef xml:id="P3" n="3" lines="5" ppq="4">
+                        <staffDef xml:id="P3" notationtype="mensural" n="3" lines="5" ppq="4">
                            <label xml:id="qv5fi6h">Alto</label>
                            <labelAbbr xml:id="sia7vpy">A</labelAbbr>
                            <instrDef xml:id="u1r0djt" midi.channel="2" midi.instrnum="52" midi.volume="80%" />
                            <clef xml:id="d1tzikgh" shape="C" line="2" />
-                           <keySig xml:id="e18ve3uf" mode="major" sig="1f" />
+                           <keySig>
+  										<keyAccid pname="b" accid="f" oct="4"/>
+  										<keyAccid pname="b" accid="f" oct="3"/>
+									</keySig>
                            <proport num="3"/>
                         </staffDef>
-                        <staffDef xml:id="P4" n="4" lines="5" ppq="4">
+                        <staffDef xml:id="P4" notationtype="mensural" n="4" lines="5" ppq="4">
                            <label xml:id="t1pv5o7n">Tenor</label>
                            <labelAbbr xml:id="v1xbdudp">T</labelAbbr>
                            <instrDef xml:id="xjppb8i" midi.channel="3" midi.instrnum="52" midi.volume="80%" />
                            <clef xml:id="g1tarzbh" shape="C" line="3" />
-                           <keySig xml:id="h1jjvhej" mode="major" sig="1f" />
+                           <keySig xml:id="h1jjvhej" mode="major" sig="1f"/>
                            <meterSig xml:id="i7mgisg" sym="invis" unit="invis" />
                         </staffDef>
                      </staffGrp>
@@ -88,7 +93,7 @@ ff. 25v.-26r.-COT/ff. 25v.-26r.-FF</rend>
                      <measure xml:id="n156fuly" n="1">
                         <staff xml:id="p1r2ejhi" n="3">
                            <layer xml:id="q1x65lld" n="1">
-                              <mensur sign="C" loc="3"/>
+                              <mensur sign="C" loc="3" num="3"/>
                               <rest dur="minima"/>
                               <note xml:id="r1gydvjn" dur.ppq="8" dur="2" oct="4" pname="f" stem.dir="down" stem.pos="right">
                                  <accid/>
